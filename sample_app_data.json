@@ -2,10 +2,10 @@
   "app_profile": {
     "app_name": "Allrounder",
     "package_name": "com.allrounder.app",
-    "current_version": "1.0.4",
+    "current_version": "1.0.4-8",
     "developer_name": "johirxofficial",
     "about_us": "Welcome to Allrounder. Your ultimate destination for lag-free, high-definition sports streaming. Access multiple fast servers for every major global tournament.",
-    "logo_url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-clearkey/poster.jpg",
+    "logo_url": "https://raw.githubusercontent.com/johirxofficial/allrounder/refs/heads/main/external_assets/logo.png",
     "social_links": {
       "facebook": "https://facebook.com/allrounderapp",
       "telegram": "https://t.me/allrounderapp",
