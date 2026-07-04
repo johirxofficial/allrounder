@@ -7,7 +7,7 @@ public class Constants {
      * This single URL drives the entire app (profile, categories, events).
      */
     public static final String CONFIG_JSON_URL =
-            "https://cdn.allrounderapp.com/config/app_data.json";
+            "https://raw.githubusercontent.com/johirxofficial/allrounder/refs/heads/main/sample_app_data.json";
 
     public static final String EXTRA_EVENT_JSON = "extra_event_json";
 
