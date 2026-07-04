@@ -15,7 +15,11 @@
   "categories": [
     { "id": "cat_all", "name": "All Sports" },
     { "id": "cat_cricket", "name": "Cricket" },
-    { "id": "cat_football", "name": "Football" }
+    { "id": "cat_football", "name": "Football" },
+    { "id": "cat_tennis", "name": "Tennis" },
+    { "id": "cat_basketball", "name": "Basketball" },
+    { "id": "cat_kabaddi", "name": "Kabaddi" },
+    { "id": "cat_hockey", "name": "Hockey" }
   ],
   "events": [
     {
@@ -42,7 +46,7 @@
         {
           "server_name": "Server 2 (Backup HLS)",
           "type": "hls",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "url": "http://10.11.12.13:8089/Tsports-HD_L3/tracks-v1a1/mono.m3u8",
           "drm_protected": false
         }
       ]
@@ -56,8 +60,293 @@
       "start_time": "2026-07-05T19:45:00Z",
       "team_one": { "name": "Real Madrid", "logo": "https://cdn.allrounderapp.com/teams/real_madrid.png" },
       "team_two": { "name": "Barcelona", "logo": "https://cdn.allrounderapp.com/teams/barcelona.png" },
-      "demo_intro_url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "demo_intro_url": "https://sportzo.sportzo.xyz/coming_soon_video/coming_soon_10s.m3u8",
       "streaming_sources": []
+    },
+    {
+      "event_id": "evt_003",
+      "category_id": "cat_tennis",
+      "status": "live",
+      "title": "Wimbledon 2026",
+      "description": "Men's Singles Semi-Final",
+      "start_time": "2026-07-04T13:30:00Z",
+      "team_one": { "name": "Novak Djokovic", "logo": "https://cdn.allrounderapp.com/teams/djokovic.png" },
+      "team_two": { "name": "Carlos Alcaraz", "logo": "https://cdn.allrounderapp.com/teams/alcaraz.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "http://10.11.12.13:8089/Tsports-HD_L3/tracks-v1a1/mono.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_004",
+      "category_id": "cat_basketball",
+      "status": "live",
+      "title": "NBA Summer League Final",
+      "description": "Team USA vs Team World",
+      "start_time": "2026-07-04T18:00:00Z",
+      "team_one": { "name": "Team USA", "logo": "https://cdn.allrounderapp.com/teams/usa_basketball.png" },
+      "team_two": { "name": "Team World", "logo": "https://cdn.allrounderapp.com/teams/world_basketball.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_005",
+      "category_id": "cat_cricket",
+      "status": "coming_soon",
+      "title": "Asia Cup 2026",
+      "description": "India vs Pakistan - Super Four",
+      "start_time": "2026-07-08T14:30:00Z",
+      "team_one": { "name": "India", "logo": "https://cdn.allrounderapp.com/teams/in_flag.png" },
+      "team_two": { "name": "Pakistan", "logo": "https://cdn.allrounderapp.com/teams/pk_flag.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_006",
+      "category_id": "cat_football",
+      "status": "live",
+      "title": "Premier League",
+      "description": "Manchester City vs Liverpool",
+      "start_time": "2026-07-04T20:00:00Z",
+      "team_one": { "name": "Manchester City", "logo": "https://cdn.allrounderapp.com/teams/mancity.png" },
+      "team_two": { "name": "Liverpool", "logo": "https://cdn.allrounderapp.com/teams/liverpool.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_007",
+      "category_id": "cat_tennis",
+      "status": "coming_soon",
+      "title": "US Open 2026",
+      "description": "Women's Singles Quarter Final",
+      "start_time": "2026-07-12T15:00:00Z",
+      "team_one": { "name": "Iga Swiatek", "logo": "https://cdn.allrounderapp.com/teams/swiatek.png" },
+      "team_two": { "name": "Aryna Sabalenka", "logo": "https://cdn.allrounderapp.com/teams/sabalenka.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_008",
+      "category_id": "cat_kabaddi",
+      "status": "live",
+      "title": "Pro Kabaddi League",
+      "description": "Jaipur Pink Panthers vs Bengaluru Bulls",
+      "start_time": "2026-07-04T19:30:00Z",
+      "team_one": { "name": "Jaipur Pink Panthers", "logo": "https://cdn.allrounderapp.com/teams/jaipur.png" },
+      "team_two": { "name": "Bengaluru Bulls", "logo": "https://cdn.allrounderapp.com/teams/bengaluru.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_009",
+      "category_id": "cat_hockey",
+      "status": "coming_soon",
+      "title": "Hockey World Cup",
+      "description": "India vs Australia - Semi Final",
+      "start_time": "2026-07-09T16:00:00Z",
+      "team_one": { "name": "India", "logo": "https://cdn.allrounderapp.com/teams/in_flag.png" },
+      "team_two": { "name": "Australia", "logo": "https://cdn.allrounderapp.com/teams/australia.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_010",
+      "category_id": "cat_cricket",
+      "status": "live",
+      "title": "T20 Blast",
+      "description": "Surrey vs Yorkshire",
+      "start_time": "2026-07-04T17:00:00Z",
+      "team_one": { "name": "Surrey", "logo": "https://cdn.allrounderapp.com/teams/surrey.png" },
+      "team_two": { "name": "Yorkshire", "logo": "https://cdn.allrounderapp.com/teams/yorkshire.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "http://10.11.12.13:8089/Tsports-HD_L3/tracks-v1a1/mono.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_011",
+      "category_id": "cat_football",
+      "status": "coming_soon",
+      "title": "La Liga",
+      "description": "Atletico Madrid vs Sevilla",
+      "start_time": "2026-07-11T21:00:00Z",
+      "team_one": { "name": "Atletico Madrid", "logo": "https://cdn.allrounderapp.com/teams/atletico.png" },
+      "team_two": { "name": "Sevilla", "logo": "https://cdn.allrounderapp.com/teams/sevilla.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_012",
+      "category_id": "cat_basketball",
+      "status": "live",
+      "title": "EuroBasket Qualifiers",
+      "description": "Spain vs France",
+      "start_time": "2026-07-04T20:30:00Z",
+      "team_one": { "name": "Spain", "logo": "https://cdn.allrounderapp.com/teams/spain.png" },
+      "team_two": { "name": "France", "logo": "https://cdn.allrounderapp.com/teams/france.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_013",
+      "category_id": "cat_cricket",
+      "status": "coming_soon",
+      "title": "The Ashes 2026",
+      "description": "England vs Australia - 1st Test",
+      "start_time": "2026-07-15T10:00:00Z",
+      "team_one": { "name": "England", "logo": "https://cdn.allrounderapp.com/teams/england.png" },
+      "team_two": { "name": "Australia", "logo": "https://cdn.allrounderapp.com/teams/australia.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_014",
+      "category_id": "cat_football",
+      "status": "live",
+      "title": "Serie A",
+      "description": "Juventus vs AC Milan",
+      "start_time": "2026-07-04T22:00:00Z",
+      "team_one": { "name": "Juventus", "logo": "https://cdn.allrounderapp.com/teams/juventus.png" },
+      "team_two": { "name": "AC Milan", "logo": "https://cdn.allrounderapp.com/teams/acmilan.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_015",
+      "category_id": "cat_kabaddi",
+      "status": "coming_soon",
+      "title": "International Kabaddi",
+      "description": "India vs Iran",
+      "start_time": "2026-07-07T19:00:00Z",
+      "team_one": { "name": "India", "logo": "https://cdn.allrounderapp.com/teams/in_flag.png" },
+      "team_two": { "name": "Iran", "logo": "https://cdn.allrounderapp.com/teams/iran.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_016",
+      "category_id": "cat_hockey",
+      "status": "live",
+      "title": "FIH Pro League",
+      "description": "Netherlands vs Germany",
+      "start_time": "2026-07-04T17:30:00Z",
+      "team_one": { "name": "Netherlands", "logo": "https://cdn.allrounderapp.com/teams/netherlands.png" },
+      "team_two": { "name": "Germany", "logo": "https://cdn.allrounderapp.com/teams/germany.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
+    },
+    {
+      "event_id": "evt_017",
+      "category_id": "cat_football",
+      "status": "coming_soon",
+      "title": "Copa America",
+      "description": "Brazil vs Argentina",
+      "start_time": "2026-07-13T21:00:00Z",
+      "team_one": { "name": "Brazil", "logo": "https://cdn.allrounderapp.com/teams/brazil.png" },
+      "team_two": { "name": "Argentina", "logo": "https://cdn.allrounderapp.com/teams/argentina.png" },
+      "demo_intro_url": "",
+      "streaming_sources": [
+        {
+          "server_name": "Server 1",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "drm_protected": false
+        }
+      ]
     }
   ],
   "ads": {
